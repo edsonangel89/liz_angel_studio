@@ -1,0 +1,45 @@
+$primary_color: #ffd5cd;
+$secondary_color: #efbbcf;
+$light_color: #c3aed6;
+$dark_color: #8675a9;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********************MOBILE 730PX***************/
+
+@media only screen and (max-width: 730px) {
+
+    nav {
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        box-shadow: 0 0 10px gray;
+
+        ul {
+            height: 100%;
+            padding: 10px 16px;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #mobile_logo {
+            width: 40px;
+        }
+        a {
+            text-decoration: none;
+            color: $primary_color;
+            :hover {
+                color: $dark_color;
+            }
+        }
+    }
+    .navbar__desktop {
+        display: none;
+    }
+
+}

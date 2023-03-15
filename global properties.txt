@@ -1,0 +1,15 @@
+Liz Angel Studio
+
+Color palette
+  #ffd5cd  - primary
+  #efbbcf  - secondary
+  #c3aed6  - light
+  #8675a9  - dark
+
+Tipografy
+  Dancing script - cursive
+  Raleway - sans serif
+
+Nav properties
+  mobile height 60px
+  desktop height 50px
